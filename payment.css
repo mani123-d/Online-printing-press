@@ -1,0 +1,79 @@
+.food-munch-logo {
+  width: 45px;
+  height: 30px;
+}
+.bg{
+  background-color: black;
+}
+#navItem1 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem2 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem3 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem4 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+
+
+
+.body2{
+    background-color:#e1f5fe; 
+    font-family: Arial, sans-serif;
+  }
+ 
+  .container2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  h2{
+    font-size: 40px;
+    font-weight:500;
+  }
+
+  #qr-code {
+    width: 50%;
+    padding: 20px;
+  }
+
+  #payment-form {
+    width: 50%;
+    padding: 20px;
+  }
+
+  #payment-form input[type="text"],
+  #payment-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #payment-form input[type="file"] {
+    margin-bottom: 10px;
+  }
+
+  #submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .food-munch-logo{
+    height : 30px;
+ }

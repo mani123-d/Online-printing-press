@@ -1,0 +1,80 @@
+.food-munch-logo {
+  width: 45px;
+  height: 30px;
+}
+.bg{
+  background-color: black;
+}
+#navItem1 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem2 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem3 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+#navItem4 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight : 600;
+}
+
+.body1 {
+    background-color: #e1f5fe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 4px;
+    border-radius : 15px;
+    transition: transform 0.1s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="file"],
+input[type="number"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.food-munch-logo{
+  height : 30px;
+}

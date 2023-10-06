@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Logo.png" class="food-munch-logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" id="navItem1" href="#section1">
+            Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link" href="#section2" id="navItem2">About</a>
+          <a class="nav-link" href="#wcuSection" id="navItem3">Services</a>
+          <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+          <a class="nav-link" href="" data-toggle="modal" data-target="#loginModal" id="loginButton">Login</a>
+          <a class="nav-link" href="" data-toggle="modal" data-target="#registerModal" id="navItem6">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="banner-section-bg-container d-flex justify-content-center flex-column" id="section1">
+    <div class="text-center">
+      <h1 class="banner-heading mb-5">Welcome to RGUKT Xerox Centre</h1>
+    </div>
+  </div>
+  <div class="delivery-and-payment-section pt-5 pb-5" id="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5 order-1 order-md-2">
+          <div class="text-center mt-4">
+            <img src="image.png" class="delivery-and-payment-section-img" />
+          </div>
+        </div>
+        <div class="col-12 col-md-7 order-2 order-md-1">
+          <br><h1 class="delivery-and-payment-section-heading mt-5">
+            About Us
+          </h1>
+          <p class="delivery-and-payment-section-description mt-4">
+            Welcome to our Xerox Center! We are your trusted destination for all your printing, copying, and document
+            management needs. With a commitment to quality, efficiency, and exceptional customer service, we strive to
+            deliver professional solutions for individuals and businesses alike.
+            <br><br>At our Xerox Center, we understand the importance of reliable and timely document services. Whether
+            you require black and white or color printing, high-resolution scanning, or efficient photocopying, we have
+            the state-of-the-art equipment and expertise to meet your requirements. Our dedicated team of skilled
+            professionals is always ready to assist you and provide personalized solutions to ensure your satisfaction.
+            <br><br>
+            Thank you for choosing our Xerox Center. We look forward to serving you and providing the highest quality
+            printing and document services to meet your needs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wcu-section pt-5 pb-5" id="wcuSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-12"><br>
+          <h1 class="wcu-section-heading">Our Services</h1>
+          <p class="wcu-section-description">
+            We use a better quality paper than a newspaper.
+          </p>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="mini">
+          <div class="wcu-card p-3 mb-3 shadow">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/99/99468.png?w=740&t=st=1689428469~exp=1689429069~hmac=0b738a60390af155f4e3650a42b93145467497240e8d59c7e9a8e3e6ba5aa5fc"
+              class="wcu-card-image" />
+            <h1 class="wcu-card-title mt-3">Print Outs</h1>
+            <p class="wcu-card-description">
+              Click here for all black and white or color printing, high-resolution scanning, or efficient photocopying.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="wcu-card p-3 mb-3 shadow">
+            <div class="mini">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/766/766173.png?w=740&t=st=1689429029~exp=1689429629~hmac=28ed0f55b562e6c2794f75abb6bfb59b9d08433bc5377f6ea9079944f589d832"
+              class="wcu-card-image" />
+            <h1 class="wcu-card-title mt-3">Application Forms</h1>
+            <p class="wcu-card-description">
+              Are you in need of professionally designed and meticulously printed application forms? Click here.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="mini">
+          <div class="wcu-card p-3 mb-3 shadow">
+            <img src="https://m.media-amazon.com/images/I/41aQsZ+ViCL.jpg" class="wcu-card-image" />
+            <h1 class="wcu-card-title mt-3">Record Books</h1>
+            <p class="wcu-card-description">
+              we are thrilled to present our exquisite collection of spiral books that are designed to elevate
+              productivity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          </div>
+          <div class="modal-body">
+            <ul class="nav nav-pills nav-fill mb-3">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="user-tab" data-bs-toggle="pill" href="#user" role="tab"
+                  aria-controls="user" aria-selected="true">User</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="admin-tab" data-bs-toggle="pill" href="#admin" role="tab" aria-controls="admin"
+                  aria-selected="false">Admin</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="user" role="tabpanel" aria-labelledby="user-tab">
+                <form action="user_login.php" method="post">
+                  <div class="mb-3">
+                    <label for="userEmail" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="userEmail" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="userPassword" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="userPassword" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign In</button>
+                  <p class="register-link">
+                    Don't have an account?
+                    <a href="#" onclick="openRegisterModal()">Register here</a>.
+                  </p>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">
+                <form action="admin_login.php" method="post">
+                  <div class="mb-3">
+                    <label for="adminEmail" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="adminEmail" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="adminPassword" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="adminPassword" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registration Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="registerModalLabel">Register</h5>
+          </div>
+          <div class="modal-body">
+            <form action="register.php" method="post">
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+              </div>
+              <div class="mb-3">
+                <label for="userEmail" class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" id="userEmail" required>
+              </div>
+              <div class="mb-3">
+                <label for="userPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+              </div>
+              <div class="mb-3">
+                <label for="cpassword" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="cpassword" name="cpassword" required>
+                <small id="emailHelp" class="form-text text-muted">Make sure to type the same password</small>
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Include Bootstrap JS and jQuery before the closing </body> tag -->
+    </p>
+  </div>
+  <div id="followUsSection">
+  <footer class="footer p-3">
+    <div class="box-container">
+      <div class="box text-left ml-5  pl-5">
+         <h3>contact info</h3>
+        <p><i class="fas fa-phone ic pr-2"></i>9908567843 <br><br></p>
+          <p><i class="fas fa-phone ic pr-2"></i>6456890765 <br><br></p>
+       <p> <i class="fas fa-envelope ic pr-2"></i>rguktg@gmail.com <br><br></p>
+        <p> <i class="fas fa-map-marker-alt ic pr-2"></i>Nirmal, india - 400104 <br><br></p>
+        
+      </div>
+      <div class="box ml-auto mr-5 pr-5">
+        <div class="text-left"> 
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+      </div>
+      </div>
+    <p class="credit mt-0 mb-0 pt-0 pb-0">&copy; 2023 RGUKT Xerox Centre. All rights reserved.</p>
+  </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Add these scripts in the <head> or before the closing </body> tag -->
+  <script src="path/to/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function closeLoginModal() {
+      const loginModal = document.getElementById('loginModal');
+      const backdrop = document.querySelector('.modal-backdrop');
+      loginModal.classList.remove('show');
+      backdrop.remove();
+    }
+
+    // Function to be executed when "Register here" link is clicked
+    function openRegisterModal() {
+      closeLoginModal(); // First, close the login modal
+      const registerModal = new bootstrap.Modal(document.getElementById('registerModal'));
+      registerModal.show(); // Then, open the registration modal
+    }
+    const elementsWithClass = document.getElementsByClassName('mini');
+
+    // Function to be executed when an element with the class "my-div" is clicked
+    function handleClick(event) {
+      const loginButton = document.getElementById('loginButton');
+      loginButton.click();
+
+    }
+
+    // Attach the onclick event to each element with the class "my-div"
+    for (const element of elementsWithClass) {
+      element.onclick = handleClick;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.food-munch-logo {
+    width: 45px;
+    height: 30px;
+  }
+  .bg{
+    background-color: black;
+  }
+  #navItem1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight : 600;
+  }
+  #navItem2 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight : 600;
+  }
+  #navItem3 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight : 600;
+  }
+  #navItem4 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight : 600;
+  }
+
+
+
+  .forms-card-image {
+    width: 120px;
+    height: 140px;
+  }
+  .forms-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration : underline ;
+  }
+  .forms-card-description {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+
+  .wcu-section {
+    background-color: #f9fbfe;
+  }
+
+
+  .wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    transition: transform 0.2s ease;
+  }
+
+  .food-munch-logo{
+    height : 30px;
+ }
